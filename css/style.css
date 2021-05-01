@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    margin: 0px;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgb(00, 0, 51);
+    max-width: 100%;
+    color: #ffffff91;
+    text-align: center;
+}
+
+.background {
+    max-width: 100%;
+    min-height: 600px;
+    background-image: url("https://imagizer.imageshack.com/img923/3209/AvqkUG.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.background-image {
+    background-image: url("https://imagizer.imageshack.com/img923/815/CTrR5H.png");
+}
+
+.background__image {
+    box-shadow: 3px 3px 5px black;
+    margin-top: 100px;
+    border-radius: 50%;
+    max-width: 270px;
+    position: relative;
+    top: 20px;
+}

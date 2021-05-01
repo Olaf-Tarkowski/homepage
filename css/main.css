@@ -1,0 +1,15 @@
+.main {
+    line-height: 1.5;
+    padding: 0 10px;
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.main__contact {
+    list-style-type: none;
+}
+
+.main--remove {
+    display: none;
+}
